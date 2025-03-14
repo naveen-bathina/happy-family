@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug React TypeScript",
+            "type": "chrome", // Use "firefox" if debugging in Firefox
+            "request": "launch",
+            "url": "http://localhost:5173", // Replace with your dev server URL
+            "webRoot": "${workspaceFolder}/src/happy-family-portal", // Adjust to your project directory
+            "sourceMaps": true,
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "preLaunchTask": "npm: dev" // Run `npm run dev` before debugging
+        }
+    ]
+}
