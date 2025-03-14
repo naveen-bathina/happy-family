@@ -1,0 +1,6 @@
+@HappyFamily.Api_HostAddress = http://localhost:5280
+
+GET {{HappyFamily.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
