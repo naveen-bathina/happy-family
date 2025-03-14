@@ -1,0 +1,47 @@
+name: fluttertest
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1
+  flutter_pdfview: ^1.4.0
+  path_provider: ^2.1.5
+  permission_handler: ^11.3.1
+  intl: ^0.20.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  riverpod: ^2.6.1
+  flutter_riverpod: ^2.6.1
+  json_theme: ^8.0.0+1
+  overlay_loader_with_app_icon: ^0.0.4
+  provider: ^6.0.3
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  google_fonts: ^6.2.1
+  jwt_decoder: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png # Ensure this file exists in the right directory
+    - assets/themes/appainter_theme.json # Ensure this file exists in the right directory
+    - assets/themes/appainter_theme_purple.json # Ensure this file exists in the right directory
+    - assets/certificates/certificate.crt
+    - assets/certificates/private_key.key
+#  fonts:
+#    - family: Montserrat
+#      fonts:
+#        - asset: fonts/Montserrat-Regular.ttf # Ensure this file exists in the right directory
